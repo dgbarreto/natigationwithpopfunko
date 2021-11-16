@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.avanade.popfunko.DetailActivity
 import com.avanade.popfunko.R
 
 class CollectionAdapter(private val context: Context, private val dataset: List<String>) : RecyclerView.Adapter<CollectionAdapter.CollectionViewHolder>() {
@@ -23,15 +22,6 @@ class CollectionAdapter(private val context: Context, private val dataset: List<
     }
 
     override fun onBindViewHolder(holder: CollectionViewHolder, position: Int) {
-        var item = dataset[position]
-        holder.button.text = item
-
-        holder.button.setOnClickListener {
-            val context = holder.view.context
-            val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra(DetailActivity.COLLECTION, holder.button.text.toString())
-            context.startActivity(intent)
-        }
     }
 
     override fun getItemCount() = dataset.count()
