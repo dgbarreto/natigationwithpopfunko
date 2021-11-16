@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Funkos>
+    <Funko name="Captain Carter" number="870" Image="@drawable/captaincarter" Collection="Marvel"/>
+    <Funko name="Ahsoka" number="870" Image="@drawable/ahsoka" Collection="StarWars"/>
+    <Funko name="Belatrix" number="870" Image="@drawable/belatrix" Collection="HarryPotter"/>
+    <Funko name="Black Panther" number="870" Image="@drawable/blackpanther" Collection="Marvel"/>
+    <Funko name="Boba Fett" number="870" Image="@drawable/bobafett" Collection="StarWars"/>
+    <Funko name="Darth Maul" number="870" Image="@drawable/darthmaul" Collection="StarWars"/>
+    <Funko name="Dumbledore" number="870" Image="@drawable/dumbledore" Collection="HarryPotter"/>
+    <Funko name="Harry Potter" number="870" Image="@drawable/captaincarter" Collection="HarryPotter"/>
+    <Funko name="Hermione" number="870" Image="@drawable/hermione" Collection="HarryPotter"/>
+    <Funko name="Invisible Girl" number="870" Image="@drawable/invisiblegirl" Collection="Marvel"/>
+    <Funko name="Luke" number="870" Image="@drawable/luke" Collection="StarWars"/>
+    <Funko name="Rey" number="870" Image="@drawable/rey" Collection="StarWars"/>
+    <Funko name="Storm" number="870" Image="@drawable/storm" Collection="Marvel"/>
+    <Funko name="Sylvie" number="870" Image="@drawable/sylvie" Collection="Marvel"/>
+    <Funko name="Thor" number="870" Image="@drawable/thor" Collection="Marvel"/>
+    <Funko name="Voldemort" number="870" Image="@drawable/voldemort" Collection="HarryPotter"/>
+    <Funko name="Yoda" number="870" Image="@drawable/yoda" Collection="StarWars"/>
+</Funkos>
